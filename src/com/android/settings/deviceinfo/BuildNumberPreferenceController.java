@@ -42,6 +42,7 @@ import com.android.settings.core.InstrumentedPreferenceFragment;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.password.ChooseLockSettingsHelper;
 import com.android.settings.password.ConfirmDeviceCredentialActivity;
+import com.android.settings.utils.ShiftOsUtils;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
@@ -83,7 +84,8 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
 
     @Override
     public CharSequence getSummary() {
-        return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
+        return BidiFormatter.getInstance().unicodeWrap(
+                ShiftOsUtils.getShiftOsDisplayVersion(mContext));
     }
 
     @Override
