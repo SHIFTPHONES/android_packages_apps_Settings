@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) SHIFT GmbH
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,28 +17,36 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
-import android.text.BidiFormatter;
 
+import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.utils.ShiftOsUtils;
 
 // LINT.IfChange
-public class SimpleBuildNumberPreferenceController extends BasePreferenceController {
+public class ShiftOsVersionDetailPreferenceController extends BasePreferenceController {
 
-    public SimpleBuildNumberPreferenceController(Context context,
-            String preferenceKey) {
-        super(context, preferenceKey);
+    public ShiftOsVersionDetailPreferenceController(Context context, String key) {
+        super(context, key);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return AVAILABLE_UNSEARCHABLE;
+        return AVAILABLE;
+    }
+
+    @Override
+    public boolean useDynamicSliceSummary() {
+        return true;
+    }
+
+    @Override
+    public boolean isSliceable() {
+        return true;
     }
 
     @Override
     public CharSequence getSummary() {
-        return BidiFormatter.getInstance().unicodeWrap(
-                ShiftOsUtils.getShiftOsDisplayVersion(mContext));
+        return ShiftOsUtils.getShiftOsVersion(mContext);
     }
 }
-// LINT.ThenChange(SimpleBuildNumberPreference.kt)
+// LINT.ThenChange(ShiftOsVersionDetailPreference.kt)
