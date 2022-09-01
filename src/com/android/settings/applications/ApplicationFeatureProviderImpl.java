@@ -47,6 +47,7 @@ import com.android.settings.R;
 import com.android.settings.webview.WebViewUpdateServiceWrapper;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
@@ -201,6 +202,11 @@ public class ApplicationFeatureProviderImpl implements ApplicationFeatureProvide
 
         // Keep Package Installer enabled.
         keepEnabledPackages.add(mContext.getString(R.string.config_package_installer_package_name));
+
+        // Keep packages from config enabled.
+        final String[] configEnabledPackages = mContext.getResources()
+                .getStringArray(R.array.config_shiftos_keep_enabled_packages);
+        keepEnabledPackages.addAll(Arrays.asList(configEnabledPackages));
 
         if (mPm.getWellbeingPackageName() != null) {
             keepEnabledPackages.add(mPm.getWellbeingPackageName());
