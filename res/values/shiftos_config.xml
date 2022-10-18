@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="shiftos_version">ShiftOS version</string>
-    <string name="shiftos_license_title">ShiftOS legal</string>
+<resources>
+    <!-- URL to privacy policy / ToS  -->
+    <string name="shiftos_license_url">"https://shift.eco/legal/"</string>
 </resources>
