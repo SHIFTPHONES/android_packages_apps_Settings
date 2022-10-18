@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources>
+    <!-- URL to privacy policy / tos  -->
+    <string name="shiftos_license_url">"https://shift.eco/legal/"</string>
+
     <!-- Packages, which should be kept enabled -->
     <string-array name="config_shiftos_keep_enabled_packages" translatable="false">
         <!-- EEA GMS requirement: do not allow disabling search engine selector -->
