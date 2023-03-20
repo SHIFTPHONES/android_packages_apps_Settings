@@ -82,6 +82,15 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
+    <!-- Build id -->
+    <Preference
+        android:key="os_build_id"
+        android:title="@string/shiftos_build_id"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ShiftOsBuildIdPreferenceController"/>
+
     <!-- Build date -->
     <Preference
         android:key="os_build_date"
