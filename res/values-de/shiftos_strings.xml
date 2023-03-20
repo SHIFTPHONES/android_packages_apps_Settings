@@ -17,4 +17,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="shiftos_version">ShiftOS-Version</string>
     <string name="shiftos_license_title">Rechtliche Hinweise zu ShiftOS</string>
+    <string name="shiftos_build_id">Build-ID</string>
 </resources>
