@@ -34,6 +34,9 @@
             android:title="@*android:string/bugreport_title"
             android:dialogTitle="@*android:string/bugreport_title" />
 
+        <Preference android:key="shift_support"
+            android:title="@string/shift_support" />
+
         <Preference
             android:key="bug_report_handler"
             android:title="@string/bug_report_handler_title"
