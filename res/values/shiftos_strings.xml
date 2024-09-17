@@ -18,4 +18,6 @@
     <string name="shiftos_version">ShiftOS version</string>
     <string name="shiftos_license_title">ShiftOS legal</string>
     <string name="shiftos_build_id">Build id</string>
+
+    <string name="shift_support">Launch diagnostics</string>
 </resources>
