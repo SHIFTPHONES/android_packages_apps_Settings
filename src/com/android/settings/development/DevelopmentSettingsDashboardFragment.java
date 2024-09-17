@@ -828,6 +828,8 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new GrammaticalGenderPreferenceController(context));
         controllers.add(new SensitiveContentProtectionPreferenceController(context));
 
+        controllers.add(new ShiftSupportPreferenceController(context, fragment));
+
         return controllers;
     }
 
