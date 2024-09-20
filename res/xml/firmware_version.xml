@@ -100,6 +100,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageBuildDatePreferenceController"/>
 
+    <!-- Build fingerprint -->
+    <Preference
+        android:key="build_fingerprint"
+        android:title="@string/build_fingerprint"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.BuildFingerprintPreferenceController"/>
+
     <!-- Build -->
     <Preference
         android:key="os_build_number"
