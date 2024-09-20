@@ -18,4 +18,5 @@
     <string name="shiftos_version">ShiftOS-Version</string>
     <string name="shiftos_license_title">Rechtliche Hinweise zu ShiftOS</string>
     <string name="shiftos_build_id">Build-ID</string>
+    <string name="build_fingerprint">Build-Fingerprint</string>
 </resources>
