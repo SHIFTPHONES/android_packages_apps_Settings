@@ -20,4 +20,6 @@
     <string name="shiftos_build_id">Build id</string>
 
     <string name="shift_support">Launch diagnostics</string>
+
+    <string name="build_fingerprint">Build fingerprint</string>
 </resources>
