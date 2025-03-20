@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab0496db_9647297e",
+        "filename": "res/values/shiftos_config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-20T21:05:28Z",
+      "side": 1,
+      "message": "List needs to be updated though, eg the OTA package name has changed.",
+      "range": {
+        "startLine": 23,
+        "startChar": 14,
+        "endLine": 23,
+        "endChar": 33
+      },
+      "revId": "38187b35c6dd4875b200dbafb95ee207359009be",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
