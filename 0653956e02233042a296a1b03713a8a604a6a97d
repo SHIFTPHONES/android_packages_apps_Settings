@@ -22,6 +22,30 @@
       },
       "revId": "0653956e02233042a296a1b03713a8a604a6a97d",
       "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "532484ba_6e688f67",
+        "filename": "src/com/android/settings/development/ShiftSupportPreferenceController.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-20T21:52:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3bc8ded_0f7f6e57",
+      "range": {
+        "startLine": 50,
+        "startChar": 12,
+        "endLine": 50,
+        "endChar": 44
+      },
+      "revId": "0653956e02233042a296a1b03713a8a604a6a97d",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
     }
   ]
 }
