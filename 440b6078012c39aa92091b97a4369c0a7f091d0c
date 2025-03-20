@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cabb43f6_2af17eaa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-20T13:16:50Z",
+      "side": 1,
+      "message": "Not sure if this is still needed, will check.",
+      "revId": "440b6078012c39aa92091b97a4369c0a7f091d0c",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
