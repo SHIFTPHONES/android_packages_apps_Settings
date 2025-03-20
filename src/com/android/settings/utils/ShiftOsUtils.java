@@ -45,8 +45,14 @@ public class ShiftOsUtils {
         if (versionNumber.isEmpty() || versionExtra.isEmpty()) {
             summary = context.getString(R.string.unknown);
         } else {
-            summary = String.format("%s %s (%s.%s)",
-                    versionNumber, versionExtra, versionDate, Build.PRODUCT);
+            final String dateAndProduct;
+            if (versionDate.isEmpty()) {
+                dateAndProduct = String.format("(%s)", Build.PRODUCT);
+            } else {
+                dateAndProduct = String.format("(%s.%s)", versionDate, Build.PRODUCT);
+            }
+
+            summary = String.format("%s %s %s", versionNumber, versionExtra, dateAndProduct);
         }
         return summary;
     }
