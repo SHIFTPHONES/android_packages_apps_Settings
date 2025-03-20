@@ -115,7 +115,7 @@
     </com.android.settingslib.widget.UntitledPreferenceCategory>
 
     <com.android.settingslib.widget.UntitledPreferenceCategory
-        android:order="-110"
+        android:order="90"
         android:key="top_level_system_info_category"
         android:layout="@layout/settingslib_expressive_untitled_preference_category">
         <com.android.settings.widget.HomepagePreference
@@ -260,4 +260,3 @@
             settings:controller="com.android.settings.support.SupportPreferenceController"/>
     </com.android.settingslib.widget.UntitledPreferenceCategory>
 </PreferenceScreen>
-
