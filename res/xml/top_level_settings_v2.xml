@@ -118,7 +118,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:order="-110"
+        android:order="90"
         android:key="top_level_system_info_category"
         android:layout="@layout/settingslib_preference_category_no_title">
         <com.android.settings.widget.HomepagePreference
