@@ -106,7 +106,7 @@
         <!-- Model & hardware -->
         <Preference
             android:key="device_model"
-            android:order="30"
+            android:order="10"
             android:title="@string/model_info"
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
