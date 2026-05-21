@@ -91,7 +91,7 @@ open class MyDeviceInfoScreen :
                 R.string.my_device_info_device_details_category_title,
             ) +=
                 {
-                    if (Flags.catalystDeviceModel()) +HardwareInfoScreen.KEY order 30
+                    if (Flags.catalystDeviceModel()) +HardwareInfoScreen.KEY order 10
                     addAsync(coroutineScope, Dispatchers.Default) {
                         +SimEidPreference(context) order 31
                     }
