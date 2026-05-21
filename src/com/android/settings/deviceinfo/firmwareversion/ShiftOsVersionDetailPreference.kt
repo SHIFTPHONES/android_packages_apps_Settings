@@ -42,6 +42,7 @@ class ShiftOsVersionDetailPreference :
 
     override fun bind(preference: Preference, metadata: PreferenceMetadata) {
         super.bind(preference, metadata)
+        preference.isSelectable = false
         preference.isCopyingEnabled = true
     }
 
